@@ -1,0 +1,39 @@
+theme = "hugo-coder"
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Anton Harniakou's Webpage"
+
+[params]
+    author = "Anton Harniakou"
+    description = "John Doe's personal website"
+    keywords = "blog,developer,personal"
+    info = "full stack developer"
+    avatarurl = "images/avatar.jpg"
+
+    dateformat = "January 2, 2006"
+
+    hideCredits = false
+    hideCopyright = false
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/tryzniak/"
+[[params.social]]
+    name = "Stackoverflow"
+    icon = "fab fa-stack-overflow"
+    weight = 2
+    url = "https://stackoverflow.com/users/4611648/anton-harniakou?tab=profile"
+[[params.social]]
+    name = "Codewars"
+    icon = "fas fa-globe"
+    weight = 3
+    url = "https://www.codewars.com/users/tryzniak"
+
+[languages]
+  [languages.en]
+  languagename = "English"
+
+
+
