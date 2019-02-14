@@ -1,5 +1,5 @@
 theme = "hugo-coder"
-baseURL = "http://example.org/"
+baseURL = "tryzniak.github.io/"
 languageCode = "en-us"
 title = "Anton Harniakou's Webpage"
 
